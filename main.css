@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background: #fefefe;
+    color: #222;
+    font: 19px/1.5 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    }
+a {
+    color: #0985ce;
+    text-decoration: none;
+    }
+a:visited {
+    color: purple;
+    }
+a:hover,
+a:active {
+    color: tomato;
+    }
+ul {
+    list-style-type: circle;
+    }
+img {
+    max-width: 100%;
+    }
+code {
+    margin: 0 2px;
+    padding: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #f8f8f8;
+    font-size: 0.9em;
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    }
+pre {
+    overflow: auto;
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #f8f8f8;
+    }
+pre code {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    }
+h2, h3 {
+    line-height: 1.1;
+    }
+h2 {
+    font-size: 2em;
+    }
+h3 {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    }
+figure {
+    margin: 0;
+    max-width: 100%;
+    text-align: center;
+    }
+figcaption {
+    margin: 0;
+    color: #666;
+    font-style: italic;
+    font-size: 0.8em;
+    }
+.header {
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    }
+.header:visited {
+    color: #0985ce;
+    }
+.header:hover,
+.header:active {
+    color: tomato;
+    }
+.content {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 700px;
+    }
+@media (max-width: 740px) {
+    body {
+        font-size: 100%;
+        }
+    .content {
+        max-width: 100%;
+        }
+    }
+.post {
+    padding: 40px 0 0;
+    position: relative;
+    }
+.highlight {
+    font-size: 16px;
+    line-height: 1.5;
+    }
+.note {
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: 1px solid #fbeed5;
+    border-radius: 3px;
+    background: #fcf8e3;
+    font-size: 0.9em;
+    }
+.note code {
+    padding: 0;
+    border: none;
+    background: transparent;
+    }
+.note_warning {
+    border-color: #eed3d7;
+    background: rgba(255,0,0,0.04);
+    }
+.footer {
+    margin: 40px 0 0;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+    font-size: 0.9em;
+    }
